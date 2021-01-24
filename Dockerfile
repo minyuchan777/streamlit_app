@@ -10,4 +10,4 @@ EXPOSE 8080
 
 COPY . /streamlit-project
 
-CMD streamlit run first_app.py --server.port 8080
+CMD streamlit run app.py --server.port 8080
